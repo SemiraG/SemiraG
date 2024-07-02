@@ -1,0 +1,5 @@
+Dieses Skript liest zwei CSV-Dateien ein, welche dieselben IDs besitzen, bei denen aber der restliche Inhalt nicht identisch ist.
+Es vergleicht die IDs miteinander und löscht die Einträge, welche nicht in der umfangreicheren Datei enthalten sind heraus und schreibt sie in eine neue CSV-Datei.
+
+Das Programm ist entstanden, da ich die Metadaten meines Korpus in OpenRefine gereingt hatte, aber die Dateien in OR die gesamten Daten auslesen konnte. 
+Es dient als Vorbereitung auf die Auswertung mit R. 
